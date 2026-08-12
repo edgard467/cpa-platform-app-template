@@ -1,0 +1,22 @@
+name: Lint Stub
+
+on:
+  workflow_dispatch:
+  pull_request:
+    branches:
+      - main
+      - 'release/**'
+
+jobs:
+  lint:
+    name: Lint placeholder
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Placeholder lint step
+        run: |
+          echo "Lint placeholder"
+          echo "Future implementation should run ESLint or reusable platform workflow checks"

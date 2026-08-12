@@ -1,0 +1,36 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Editor and IDE folders
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Node and package artefacts
+node_modules/
+coverage/
+dist/
+build/
+
+# Temporary files
+.tmp/
+tmp/
+*.tmp
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Important:
+# This template deliberately does not ignore, reserve, or prescribe
+# any ServiceNow generated paths. ServiceNow will create and manage
+# its generated source control structure after the application is linked.

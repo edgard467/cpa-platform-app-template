@@ -1,0 +1,22 @@
+name: Template Validation Stub
+
+on:
+  workflow_dispatch:
+  pull_request:
+    branches:
+      - main
+      - 'release/**'
+
+jobs:
+  template-validation:
+    name: Template validation placeholder
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Placeholder validation
+        run: |
+          echo "Repository template validation placeholder"
+          echo "Replace this workflow with CPA platform validation checks when available"

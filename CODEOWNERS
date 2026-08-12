@@ -1,0 +1,10 @@
+# CPA ServiceNow application repository ownership
+#
+# Replace the default owner below before first production use.
+# Use a GitHub team that represents the platform team or the application-owning team.
+#
+# Example:
+# * @defencedigital/cpa-platform-team
+# * @defencedigital/cpa-app-hrsd-team
+
+* @defencedigital/replace-with-owning-team

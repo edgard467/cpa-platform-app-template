@@ -1,0 +1,15 @@
+.editorconfig
+.eslintrc.json
+.github/
+  CODEOWNERS
+  PULL_REQUEST_TEMPLATE.md
+  workflows/
+    lint-stub.yml
+    placeholder-validation.yml
+    secret-scan-stub.yml
+.gitignore
+JIRA-ACCEPTANCE-EVIDENCE.md
+README.md
+docs/
+  governance.md
+  onboarding.md
